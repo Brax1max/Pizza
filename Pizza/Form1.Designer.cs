@@ -64,12 +64,14 @@
             // 
             // calculateButton
             // 
+            this.calculateButton.BackColor = System.Drawing.Color.DimGray;
+            this.calculateButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.calculateButton.Location = new System.Drawing.Point(126, 94);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(119, 23);
             this.calculateButton.TabIndex = 2;
             this.calculateButton.Text = "calculate";
-            this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.UseVisualStyleBackColor = false;
             this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             // 
             // subtotalLabel
@@ -146,12 +148,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(111, 278);
+            this.button1.BackColor = System.Drawing.Color.DimGray;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(110, 278);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(101, 23);
             this.button1.TabIndex = 12;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Print Receipt";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
@@ -161,7 +165,6 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(343, 329);
             this.label2.TabIndex = 13;
-            this.label2.Text = "label2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
